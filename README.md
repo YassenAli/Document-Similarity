@@ -17,6 +17,38 @@ The main program, `Document Similarity.cpp`, utilizes sets and vectors to repres
 - **Operators Overloading**: Overloaded operators `+` for set union and `*` for set intersection.
 - **Similarity Calculation**: Computes similarity between two StringSet objects based on common elements.
 
+## Example Output
+```plaintext
+Please input the file name: text.txt
+
+Set 1 is : i love chocolate i love ice cream i love milk there are delicious 
+
+Set 2 is : chocolate ice cream and chocolate bars are delicious 
+
+Set 3 is set 1 + set 2 : i love chocolate i love ice cream i love milk there are delicious chocolate ice cream and chocolate bars are 
+
+Intersection set between set 1 and set 2 is : chocolate delicious ice cream 
+
+Similarity between set 1 and set 2 is : 0.516398
+
+The size of set 2 is 10
+String (good) was added to set 2.
+String (good) was removed from set 2.
+
+Now, after clear the second set, the size of it is 0
+```
+
+#### This output corresponds to the following actions in the program:
+
+1. Sets ss1 and ss2 are created from text.txt and a predefined string, respectively.
+2. Set ss3 is created as the union of sets ss1 and ss2.
+3. Set ss4 is created as the intersection of sets ss1 and ss2.
+4. Similarity coefficient between sets ss1 and ss2 is calculated.
+5. Operations to add and remove a word (good) from ss2.
+6. Set ss2 is cleared, and its size is displayed.
+
+This output demonstrates how the program processes strings from files and calculates similarity coefficients based on common words using set operations.
+
 ## Usage
 
 To run the program:
