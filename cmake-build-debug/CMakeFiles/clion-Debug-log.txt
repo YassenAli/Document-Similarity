@@ -1,0 +1,13 @@
+"C:\Program Files\JetBrains\CLion____2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion____2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "Y:\FCAI\Level 2\OOP\Assignment 3\Problem 2" -B "Y:\FCAI\Level 2\OOP\Assignment 3\Problem 2\cmake-build-debug"
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: A3_SheetPb2_20220381
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
